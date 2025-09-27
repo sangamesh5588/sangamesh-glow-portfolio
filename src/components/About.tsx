@@ -31,50 +31,30 @@ const About = () => {
             {/* About Content */}
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a passionate full-stack developer with a love for creating innovative solutions 
-                that bridge the gap between complex technology and user-friendly experiences. 
-                With expertise spanning across modern web technologies, mobile development, and 
-                cloud platforms, I thrive on turning ideas into reality.
-              </p>
-              
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                My journey in development has equipped me with a strong foundation in both 
-                frontend and backend technologies, allowing me to deliver comprehensive solutions 
-                that are scalable, efficient, and maintainable.
+                Passionate full-stack developer crafting innovative web & mobile solutions. 
+                I love turning complex ideas into user-friendly applications using modern technologies.
               </p>
               
               {/* Key Traits */}
-              <div className="grid sm:grid-cols-2 gap-6 mt-8">
-                <div className="glass-card p-6 hover-lift">
-                  <Code className="w-10 h-10 text-primary mb-4" />
-                  <h3 className="text-xl font-semibold mb-2">Clean Code</h3>
-                  <p className="text-muted-foreground">
-                    Writing maintainable, efficient code following best practices and industry standards.
-                  </p>
+              <div className="flex flex-wrap gap-4 mt-8">
+                <div className="flex items-center glass-card p-4 hover-lift">
+                  <Code className="w-6 h-6 text-primary mr-3" />
+                  <span className="font-semibold">Clean Code</span>
                 </div>
                 
-                <div className="glass-card p-6 hover-lift">
-                  <Lightbulb className="w-10 h-10 text-accent mb-4" />
-                  <h3 className="text-xl font-semibold mb-2">Problem Solver</h3>
-                  <p className="text-muted-foreground">
-                    Passionate about tackling complex challenges with creative and efficient solutions.
-                  </p>
+                <div className="flex items-center glass-card p-4 hover-lift">
+                  <Lightbulb className="w-6 h-6 text-accent mr-3" />
+                  <span className="font-semibold">Problem Solver</span>
                 </div>
                 
-                <div className="glass-card p-6 hover-lift">
-                  <Target className="w-10 h-10 text-secondary mb-4" />
-                  <h3 className="text-xl font-semibold mb-2">Goal Oriented</h3>
-                  <p className="text-muted-foreground">
-                    Focused on delivering high-quality results that exceed expectations and drive success.
-                  </p>
+                <div className="flex items-center glass-card p-4 hover-lift">
+                  <Target className="w-6 h-6 text-secondary mr-3" />
+                  <span className="font-semibold">Goal Oriented</span>
                 </div>
                 
-                <div className="glass-card p-6 hover-lift">
-                  <Users className="w-10 h-10 text-primary mb-4" />
-                  <h3 className="text-xl font-semibold mb-2">Team Player</h3>
-                  <p className="text-muted-foreground">
-                    Collaborative approach to development with strong communication and leadership skills.
-                  </p>
+                <div className="flex items-center glass-card p-4 hover-lift">
+                  <Users className="w-6 h-6 text-primary mr-3" />
+                  <span className="font-semibold">Team Player</span>
                 </div>
               </div>
             </div>
